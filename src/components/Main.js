@@ -785,25 +785,11 @@ const Main = () => {
       image: "./img/155.jpg",
     },
     {
-      id: 159,
-      category: "Lámparas Candela",
-      description: "Dicroica Candela GU10 luz cálida 7W",
-      price: 1.469,
-      image: "./img/159.jpg",
-    },
-    {
       id: 160,
       category: "Lámparas Candela",
       description: "Tubo LED Candela 9W 60cm",
       price: 1.339,
       image: "./img/160.jpg",
-    },
-    {
-      id: 163,
-      category: "Lámparas Candela",
-      description: "Dicroica Candela GU10 luz fría 7W",
-      price: 1.469,
-      image: "./img/163.jpg",
     },
     {
       id: 180,
@@ -874,13 +860,6 @@ const Main = () => {
       description: "Panel embutir cuadrado Candela 12W",
       price: 7.058,
       image: "./img/197.jpg",
-    },
-    {
-      id: 220,
-      category: "Fichas",
-      description: "Adaptador americano",
-      price: 161,
-      image: "./img/220.jpg",
     },
     {
       id: 222,
@@ -2405,217 +2384,219 @@ const Main = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
                 <NavDropdown title="Categorías" id="collapsible-nav-dropdown">
-                  <NavDropdown.Item onClick={
-                      (() => {setSelectedCategory("All"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }>
+                  <NavDropdown.Item
+                    onClick={() => {
+                      setSelectedCategory("All"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
+                  >
                     Todos los productos
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Adaptadores"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Adaptadores"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Adaptadores
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Bastidores"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Bastidores"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Bastidores
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Cable"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Cable"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Cable
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Cable económico"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Cable económico"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Cable económico
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Cajas de embutir"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Cajas de embutir"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Cajas de embutir
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Caño corrugado"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Caño corrugado"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Caño corrugado
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Cintas"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Cintas"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Cintas
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Fichas"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Fichas"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Fichas
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Griferías"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Griferías"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Griferías
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Herramientas"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Herramientas"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Herramientas
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Iluminación"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Iluminación"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Iluminación
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Lámparas Candela"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Lámparas Candela"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Lámparas Candela
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Pinceles y rodillos"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Pinceles y rodillos"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Pinceles y rodillos
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Plafones Candela"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Plafones Candela"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Plafones Candela
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Reflectores"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Reflectores"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Reflectores
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Térmicas"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Térmicas"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Térmicas
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Varios"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Varios"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Varios
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    onClick={
-                      (() => {setSelectedCategory("Zapatillas"),
-                      window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                      })})
-                    }
+                    onClick={() => {
+                      setSelectedCategory("Zapatillas"),
+                        window.scrollTo({
+                          top: 0,
+                          behavior: "smooth",
+                        });
+                    }}
                   >
                     Zapatillas
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               <Nav>
-                <Nav.Link href="#deets">More deets</Nav.Link>
+                <Nav.Link className="face-logo" href="#deets"><img src="/img/facebook-icon.png"/></Nav.Link>
                 <Nav.Link eventKey={2} href="#memes">
                   Dank memes
                 </Nav.Link>

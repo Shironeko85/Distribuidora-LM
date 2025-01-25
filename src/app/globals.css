@@ -68,3 +68,15 @@ main {
   border-top: 1px solid lightgrey !important;
   padding-top: 1px !important;
 }
+
+.face-logo {
+  height: 50px !important;
+  width: 100px !important;
+  object-fit: contain !important;
+}
+
+.face-img {
+  height: 50px !important;
+  width: 100px !important;
+  object-fit: contain !important;
+}
