@@ -2377,7 +2377,7 @@ const Main = () => {
           expand="lg"
           className="bg-body-tertiary"
         >
-          <Container fluid>
+          <Container fluid className="asd">
             <img className="nav-logo" src="./img/logo.png" />
             <Navbar.Brand href="page.js">Distribuidora LM</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -2596,7 +2596,7 @@ const Main = () => {
                 </NavDropdown>
               </Nav>
               <Nav>
-                <Nav.Link className="face-logo" href="#deets"><img src="/img/facebook-icon.png"/></Nav.Link>
+                <Nav.Link className="face-logo" href="#deets"><img className="face-img" src="/img/facebook-icon.png"/></Nav.Link>
                 <Nav.Link eventKey={2} href="#memes">
                   Dank memes
                 </Nav.Link>

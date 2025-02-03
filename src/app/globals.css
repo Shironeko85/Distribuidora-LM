@@ -17,11 +17,18 @@ body {
 }
 
 main {
+  background-color: rgb(28, 28, 29);
   padding-top: 50px;
 }
 
 .bg-body-tertiary {
   box-shadow: 0px 0px 20px grey;
+
+}
+
+.asd {
+  background-color: rgb(236, 29, 37, 90%) !important;
+  height: 100% !important;
 }
 
 .nav-logo {
@@ -32,11 +39,12 @@ main {
 .card-base {
   width: 250px !important;
   height: 450px !important;
-  color: black !important;
-  border: 1px solid lightgrey !important;
+  color: white !important;
+  border: 1px solid grey !important;
   font-family: "Libre Baskerville", serif !important;
   font-size: 0.8rem !important;
   margin: 3%;
+  background-color: rgb(37, 39, 40) !important;
 }
 
 .card-base:hover {
