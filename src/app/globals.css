@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -21,14 +23,26 @@ main {
   padding-top: 50px;
 }
 
-.bg-body-tertiary {
-  box-shadow: 0px 0px 20px grey;
-
+.main-navbar {
+  background-color: rgb(87, 89, 91);
+  box-shadow: 0px 0px 40px black;
+  color: white;
+  font-family: "Noto Sans", serif;
 }
 
-.asd {
-  background-color: rgb(236, 29, 37, 90%) !important;
-  height: 100% !important;
+.dropdown-menu {
+  background-color: rgb(87, 89, 91) !important;
+  color: white !important;
+  font-family: "Noto Sans", serif;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(237, 50, 58) !important;
+  transition: 0.3s ease;
 }
 
 .nav-logo {
@@ -36,23 +50,32 @@ main {
   margin-right: 2%;
 }
 
+.nav-item {
+  padding-top: 3px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
 .card-base {
   width: 250px !important;
   height: 450px !important;
   color: white !important;
   border: 1px solid grey !important;
-  font-family: "Libre Baskerville", serif !important;
   font-size: 0.8rem !important;
   margin: 3%;
   background-color: rgb(37, 39, 40) !important;
+  font-family: "Noto Sans", serif;
 }
 
 .card-base:hover {
   width: 250px;
-  box-shadow: 0px 0px 20px lightgrey !important;
+  box-shadow: 0px 0px 20px rgb(237, 50, 58) !important;
+  border: rgb(237, 50, 58) !important;
   transition: 0.3s !important;
   cursor: default;
-  
 }
 
 .card-container {
@@ -65,14 +88,17 @@ main {
   height: 60%;
   object-fit: contain !important;
   scale: 0.8;
+  background-color: white;
 }
 
 .card-body {
+  width: 95%;
   display: flex !important;
   justify-content: space-around !important;
   flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
   font-size: 1rem;
+  text-align: center;
   border-top: 1px solid lightgrey !important;
   padding-top: 1px !important;
 }
