@@ -65,9 +65,10 @@ main {
   color: white !important;
   border: 1px solid grey !important;
   font-size: 0.8rem !important;
-  margin: 3%;
+  margin: 2%;
   background-color: rgb(37, 39, 40) !important;
   font-family: "Noto Sans", serif;
+  line-height: 20px;
 }
 
 .card-base:hover {
@@ -82,6 +83,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: rgb(28, 28, 29);
 }
 
 .card-image {
@@ -92,7 +94,7 @@ main {
 }
 
 .card-body {
-  width: 95%;
+  width: 100%;
   display: flex !important;
   justify-content: space-around !important;
   flex-direction: column;
@@ -101,6 +103,11 @@ main {
   text-align: center;
   border-top: 1px solid lightgrey !important;
   padding-top: 1px !important;
+}
+
+.card-price {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
 }
 
 .face-logo {
