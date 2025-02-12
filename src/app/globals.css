@@ -48,6 +48,8 @@ main {
 .nav-logo {
   height: 50px;
   margin-right: 2%;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 .nav-item {
@@ -60,8 +62,8 @@ main {
 }
 
 .card-base {
-  width: 250px !important;
-  height: 450px !important;
+  width: 225px !important;
+  height: 400px !important;
   color: white !important;
   border: 1px solid grey !important;
   font-size: 0.8rem !important;
@@ -120,4 +122,47 @@ main {
   height: 50px !important;
   width: 100px !important;
   object-fit: contain !important;
+}
+
+.main-footer {
+  background-color: rgb(87, 89, 91);
+  box-shadow: 0px 0px 40px black;
+  color: white;
+  font-family: "Noto Sans", serif;
+}
+
+.direccion {
+  background-color: #021F3F !important;
+  color: rgb(237, 50, 58) !important;                
+  height: 40px !important;
+  width: 310px !important;   
+  font-size: 0.8rem !important;
+  font-weight: bold !important;
+  border-radius:12px !important;
+  border: solid lightgray 1px !important;
+  display:flex !important;
+  justify-content:center !important;
+  align-items: center !important;
+  cursor:pointer !important;
+  margin:10px !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.direccion:hover {
+  background-color: rgb(237, 50, 58) !important;
+  color: #021F3F !important;
+}
+
+.direccion:active {
+  height: 32px !important;
+  width: 275px !important;
+  font-size: 0.6rem !important;
+  transition: 0.3s !important;
+  color: #021F3F !important;
+  background-color: rgb(237, 50, 58) !important;
+}
+
+.footerC {
+  display: flex !important;
+  justify-content: space-around !important;
 }

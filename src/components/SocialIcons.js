@@ -19,11 +19,11 @@ const SocialIcons = () => {
                 a{
                     background-color: #021F3F;
                     color: rgb(237, 50, 58);                
-                    height: 35px;
-                    width:35px;   
+                    height: 40px;
+                    width: 40px;   
                     font-size: 1.8rem;
                     border-radius:50%;
-                    border:none;
+                    border: solid lightgray 1px;
                     display:flex;
                     justify-content:center;
                     align-items: center;
@@ -34,6 +34,12 @@ const SocialIcons = () => {
                 a:hover {
                     background-color: rgb(237, 50, 58)  ;
                     color: #021F3F;
+                }
+                a:active {
+                    height: 37px !important;
+                    width: 37px !important;
+                    font-size: 0.7rem !important;
+                    transition: 0.3s !important;
                 }
                  
 

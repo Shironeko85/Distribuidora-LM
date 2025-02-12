@@ -1,7 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import { useState } from "react";
 import Card from "react-bootstrap/Card";
 import SocialIcons from "./SocialIcons";
@@ -2316,7 +2316,7 @@ const Main = () => {
           className="main-navbar"
           variant="dark"
         >
-          <Container fluid className="asd">
+          <Container fluid>
             <img className="nav-logo" src="./img/logo.png" />
             <Navbar.Brand className="title">Distribuidora LM</Navbar.Brand>
             <NavDropdown title="Categorías" id="collapsible-nav-dropdown">
@@ -2526,12 +2526,28 @@ const Main = () => {
               <Card.Body className="card-body">
                 <Card.Title>{product.name}</Card.Title>
                 <Card.Text>{product.description}</Card.Text>
-                <Card.Text><dfn className="card-price">$ {product.price}</dfn></Card.Text>
+                <Card.Text>
+                  <dfn className="card-price">$ {product.price}</dfn>
+                </Card.Text>
                 <Card.Text>Artículo: {product.id}</Card.Text>
               </Card.Body>
             </Card>
           ))}
         </Container>
+        <Navbar
+          fixed="bottom"
+          collapseOnSelect
+          expand="lg"
+          className="main-footer"
+          variant="dark"
+        >
+          <Container fluid className="footerC">
+            <div><Button href="https://maps.app.goo.gl/7CcV8YXZorL451rU8" target="blank" className="direccion">Alberdi 896 esquina Muñoz.<br/> Muñiz</Button></div>
+          </Container>
+          <Container fluid className="footerC">
+            <div><Button /* href="https://maps.app.goo.gl/R1jWtUA5rD8wRtww9" */ target="blank" className="direccion">Acevedo 1080 entre Massa y Colombres.<br/> Polvorines</Button></div>
+          </Container>
+        </Navbar>
       </main>
     </>
   );
