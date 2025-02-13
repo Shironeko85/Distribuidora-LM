@@ -2288,7 +2288,7 @@ const Main = () => {
       category: "Iluminación",
       description: "Portalámpara 3 piezas",
       price: "426",
-      image: "./img/526.jpg",
+      image: "./img/426.jpg",
     },
     {
       id: 525,
@@ -2545,7 +2545,7 @@ const Main = () => {
             <div><Button href="https://maps.app.goo.gl/7CcV8YXZorL451rU8" target="blank" className="direccion">Alberdi 896 esquina Muñoz.<br/> Muñiz</Button></div>
           </Container>
           <Container fluid className="footerC">
-            <div><Button /* href="https://maps.app.goo.gl/R1jWtUA5rD8wRtww9" */ target="blank" className="direccion">Acevedo 1080 entre Massa y Colombres.<br/> Polvorines</Button></div>
+            <div><Button href="https://maps.app.goo.gl/R1jWtUA5rD8wRtww9" target="blank" className="direccion">Acevedo 1080 entre Massa y Colombres.<br/> Polvorines</Button></div>
           </Container>
         </Navbar>
       </main>

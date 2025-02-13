@@ -139,7 +139,7 @@ main {
   font-size: 0.8rem !important;
   font-weight: bold !important;
   border-radius:12px !important;
-  border: solid lightgray 1px !important;
+  border: solid grey 2px !important;
   display:flex !important;
   justify-content:center !important;
   align-items: center !important;

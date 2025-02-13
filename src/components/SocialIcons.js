@@ -23,7 +23,7 @@ const SocialIcons = () => {
                     width: 40px;   
                     font-size: 1.8rem;
                     border-radius:50%;
-                    border: solid lightgray 1px;
+                    border: solid grey 2px;
                     display:flex;
                     justify-content:center;
                     align-items: center;
